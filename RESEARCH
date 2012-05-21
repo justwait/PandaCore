@@ -1,0 +1,464 @@
+battlepet Lang info
+BATTLE_PET_FAVORITE = "Set Favorite";
+BATTLE_PET_NAME_1 = "Humanoid";
+BATTLE_PET_NAME_10 = "Mechanical";
+BATTLE_PET_NAME_2 = "Dragonkin";
+BATTLE_PET_NAME_3 = "Flying";
+BATTLE_PET_NAME_4 = "Undead";
+BATTLE_PET_NAME_5 = "Critter";
+BATTLE_PET_NAME_6 = "Magic";
+BATTLE_PET_NAME_7 = "Elemental";
+BATTLE_PET_NAME_8 = "Beast";
+BATTLE_PET_NAME_9 = "Aquatic";
+BATTLE_PET_PUT_IN_CAGE = "Put In Cage";
+BATTLE_PET_RELEASE = "Release";
+BATTLE_PET_RENAME = "Rename";
+BATTLE_PET_SUMMON = "Summon";
+BATTLE_PET_UNFAVORITE = "Remove Favorite";
+BATTLE_PET_ABILITIES_LABEL = "Abilities";
+BATTLE_PET_AREA_EFFECT = "Area Effect:";
+BATTLE_PET_CURRENT_HEALTH_FORMAT = "%d/%d";
+BATTLE_PET_CURRENT_XP_FORMAT = "%d/%d";
+BATTLE_PET_CURRENT_XP_FORMAT_VERBOSE = "XP: %d/%d";
+BATTLE_PET_EFFECTIVENESS_VS = "Vs.";
+BATTLE_PET_HEALTH_VERBOSE = "Health: %d/%d";
+BATTLE_PET_PASS = "Pass";
+BATTLE_PET_PVP_DUEL = "Pet-battle Duel";
+BATTLE_PET_PVP_DUEL_REQUESTED = "%s has challenged you to a pet-battle.";
+BATTLE_PET_RESISTANT_TO_LABEL = "Resistant To:";
+BATTLE_PET_SELECT_AN_ACTION = "Select An Action";
+BATTLE_PET_SELECT_A_PET = "Select a pet!";
+BATTLE_PET_STATS_LABEL = "Stats";
+BATTLE_PET_TURN_COOLDOWN = "%d Turn Cooldown";
+BATTLE_PET_TURN_CURRENT_COOLDOWN = "Cooldown Remaining: %d |4Turn:Turns;";
+BATTLE_PET_WAITING_FOR_OPPONENT = "Waiting For Opponent...";
+BATTLE_PET_WEAK_TO_LABEL = "Weak To:";
+TOOLTIP_WILDBATTLEPET_LEVEL = "Pet Level %s Wild Pet";
+TOOLTIP_WILDBATTLEPET_LEVEL_CLASS = "Pet Level %s %s";
+
+ERR_PETBATTLE_CREATE_FAILED = "Failed to create pet-battle.";
+ERR_PETBATTLE_DECLINED = "Pet-battle invitation declined.";
+ERR_PETBATTLE_IN_BATTLE = "Pet-battle already in progress.";
+ERR_PETBATTLE_NOT_A_TRAINER = "Must be a battle pet trainer to pet-battle.";
+ERR_PETBATTLE_NOT_HERE = "Cannot pet-battle here.";
+ERR_PETBATTLE_NOT_HERE_OBSTRUCTED = "Pet-battle area is obstructed.";
+ERR_PETBATTLE_NOT_HERE_ON_TRANSPORT = "Cannot pet-battle on a transport.";
+ERR_PETBATTLE_NOT_HERE_UNEVEN_GROUND = "Ground is too uneven to pet-battle.";
+ERR_PETBATTLE_NOT_WHILE_DEAD = "Cannot pet-battle while dead.";
+ERR_PETBATTLE_NOT_WHILE_FLYING = "Must be standing to pet-battle.";
+ERR_PETBATTLE_NOT_WHILE_IN_COMBAT = "Cannot pet-battle while in combat.";
+ERR_PETBATTLE_TARGET_INVALID = "Not a valid pet-battle target.";
+ERR_PETBATTLE_TARGET_NOT_CAPTURABLE = "Creature is not a valid pet-battle target.";
+ERR_PETBATTLE_TARGET_OUT_OF_RANGE = "Pet-battle target out of range.";
+
+MAX_NUM_BATTLE_PET_ATTACK_MODIFIERS = 2;
+MAX_BATTLE_PET_TEXT = "Pets: %d/500";
+BATTLE_PET_STATE_ATTACK = 18;
+BATTLE_PET_STATE_SPEED = 20;
+BATTLE_PET_PAD_INDEX = 0;
+PBDEBUG_TURN_TIME = 30;
+PBDEBUG_ACTIVE_ALLY = 1;
+PBDEBUG_ACTIVE_ENEMY = 2;
+
+List of Battle Pets:
+Beasts:
+
+Albino Snake
+Arctic Grizzly Cub
+Baby Ape
+Bananas
+Beaver Yearling
+Black Kingsnake
+Blue Racer
+Brown Snake
+Cobra Hatchling
+Crimson Snake
+Darkmoon Monkey
+Darting Hatchling
+Deviate Hatchling
+Dun Morogh Cub
+Durotar Scorpion
+Egbert
+Fox Kit
+Green Water Snake
+Gundrak Hatchling
+Hyjal Bear Cub
+Keg Pony
+Lashtail Hatchling
+Leaping Hatchling
+Mulgore Hatchling
+Nightsaber Cub
+Obsidian Hatchling
+Otter Pup
+Panda Cub
+Panther Cub
+Peanut
+Pint-Sized Pink Pachyderm
+Porcupette
+Raccoon Kit
+Ravager Hatchling
+Ravasaur Hatchling
+Razormaw Hatchling
+Razzashi Hatchling
+Ribbon Snake
+Scarlet Snake
+Scorpling
+Venomhide Hatchling
+Wind Rider Cub
+Winter Reindeer
+Winterspring Cub
+Winterspring Cub
+Worg Pup
+
+Critters:
+
+Armadillo Pup
+Baby Blizzard Bear
+Black Sheep
+Black Tabby Cat
+Bombay Cat
+Brown Prairie Dog
+Brown Rabbit
+Calico Cat
+Cockroach
+Cornish Rex Cat
+Darkmoon Cub
+Elwynn Lamb
+Feline Familiar
+Giant Sewer Rat
+Golden Pig
+Kitty
+Little Fawn
+Lucky
+Lucky
+Manny
+Mr. Chilly
+Mr. Grubbs
+Mr. Kitty
+Mr. Wiggles
+Nuts
+Orange Tabby Cat
+Pengu
+Perky Pug
+Plump Turkey
+Sand Scarab
+Scooter the Snail
+Siamese Cat
+Silver Pig
+Silver Tabby Cat
+Smolderweb Hatchling
+Snowshoe Hare
+Snowshoe Hare
+Snowshoe Rabbit
+Spring Rabbit
+Stinker
+Whiskers the Rat
+White Kitten
+White Tiger Cub
+Wolpertinger
+
+Dragonkin:
+
+Azure Whelpling
+Bronze Whelpling
+Celestial Dragon
+Crimson Whelpling
+Crystalwing Stone Drake
+Dark Whelpling
+Emerald Whelpling
+Essence of Competition
+Faeling
+Lil' Deathwing
+Lil' Tarecgosa
+Netherwhelp
+Onyxian Whelpling
+Proto-Drake Whelp
+Soul of the Aspects
+Spirit of Competition
+Sprite Darter Hatchling
+Tiny Green Dragon
+Tiny Red Dragon
+
+Elemental:
+
+Ammen Vale Lashling
+Core Hound Pup
+Crimson Lasher
+Dark Phoenix Hatchling
+Elementium Geode
+Frigid Frostling
+Kirin Tor Familiar
+Lil' Ragnaros
+Lumpy
+Pebble
+Phoenix Hatchling
+Rumbling Rockling
+Searing Scorchling
+Singing Sunflower
+Sinister Squashling
+Spirit of Summer
+Swirling Stormling
+Teldrassil Sproutling
+Tiny Shale Spider
+Tiny Snowman
+Withers
+
+Flying:
+
+Ancona Chicken
+Blood Parrot
+Blue Dragonhawk Hatchling
+Blue Mini Jouster
+Blue Moth
+Brilliant Kaliri
+Bush Chicken
+Cenarion Hatchling
+Cockatiel
+Cockatoo
+Dragon Kite
+Dragon Kite
+Eagle Owl
+Firefly
+Gold Mini Jouster
+Golden Dragonhawk Hatchling
+Great Horned Owl
+Green Wing Macaw
+Gryphon Hatchling
+Hawk Owl
+Hippogryph Hatchling
+Hungry Nether Ray
+Hyacinth Macaw
+Miniwing
+Nether Ray Fry
+Prairie Chicken
+Pterrordax Hatchling
+Red Dragonhawk Hatchling
+Red Moth
+Rustberg Gull
+Senegal
+Silver Dragonhawk Hatchling
+Snowy Owl
+Tickbird Hatchling
+Tiny Flamefly
+Tiny Sporebat
+Tuskarr Kite
+Westfall Chicken
+White Moth
+White Plymouth Rock
+White Tickbird Hatchling
+Yellow Moth
+
+Humanoid:
+
+Argent Gruntling
+Argent Squire
+Ar'lia
+Blood Elf Orphan
+Blue Baby Murloc
+Curious Oracle Hatchling
+Curious Wolvar Pup
+Deathy
+Draenei Orphan
+Father Winter's Helper
+Fathom-Stalker Azjentus
+Greedy Kobold
+Green Baby Murloc
+Grunty
+Guild Herald
+Guild Herald
+Guild Page
+Guild Page
+Gurky
+Hardboiled Egg
+Human Orphan
+Lurky
+Mini Tyrael
+Moonkin Hatchling
+Moonkin Hatchling
+Murkablo
+Murki
+Murkimus the Gladiator
+Murkimus the Gladiator
+Murky
+Oracle Orphan
+Orcish Orphan
+Pandaren Monk
+Peddlefeet
+Pink Baby Murloc
+Poley
+Purple Baby Murloc
+Terky
+Winter's Little Helper
+Wolvar Orphan
+
+Magical:
+
+Crimson Serpent
+Disgusting Oozeling
+Elven Wisp
+Enchanted Broom
+Enchanted Lantern
+Ethereal Soul-Trader
+Festival Lantern
+Fetish Shaman
+Gregarious Grell
+Jade Tiger
+Legs
+Lizzy
+Lunar Lantern
+Magic Lamp
+Mana Wyrmling
+Mini Diablo
+Onyx Panther
+PattyMack - WildBattlePet Test
+Shimmering Wyrmling
+Spectral Tiger Cub
+Toxic Wasteling
+Voodoo Figurine
+Willy
+Zeppit
+Zergling
+Zipao Tiger
+
+Mechanical:
+
+Alarming Clockbot
+Blue Clockwork Rocket Bot
+Clockwork Gnome
+Clockwork Rocket Bot
+Creepy Crate
+Darkmoon Tonk
+Darkmoon Zeppelin
+Depleted War Golem
+De-Weaponized Mechanical Companion
+Krazzworks Zeppelin
+Landro's Lil' XT
+Landro's Lil' XT
+Lifelike Toad
+Lil' Smoky
+Lil' XT
+Mechanical Chicken
+Mechanical Squirrel
+Mechanopeep
+Mini Thor
+Personal World Destroyer
+Pet Bombling
+Rocket Chicken
+Sen'jin Fetish
+Tiny Harvester
+Toy RC Mortar Tank
+Tranquil Mechanical Yeti
+Warbot
+XS-001 Constructor Bot
+
+Undead:
+
+Corrupted Kitten
+Coyote Spirit
+Crawling Claw
+Eye of the Legion
+Fossilized Hatchling
+Frosty
+Ghostly Skull
+Infested Bear Cub
+Landro's Lichling
+Lil' K.T.
+Macabre Marionette
+Scourge Haunt
+Tirisfal Batling
+Vampiric Batling
+
+????:
+
+Admiral Taylor
+Alliance Balloon
+Alliance Balloon
+Alliance Banner
+Companion Combat Vehicle
+Cosmetic Fire large
+Cosmetic Smoke From Fire
+Darkmoon Balloon
+Darren's Test BattlePet 1
+Darren's Test BattlePet 2
+Darren's Test BattlePet 3
+Darren's Test BattlePet 4
+Darren's Test BattlePet 5
+Darren's Test BattlePet 6
+Darren's Test NPC
+Darren's Test NPC 2
+Fire Bunny
+General Nazgrim
+General Nazgrim
+Gorrok
+Green Balloon
+Green Balloon
+Guardian Cub
+Hellscream's Vanguard
+Horde Balloon
+Horde Balloon
+Horde Banner
+Large Alliance Tent
+Large Horde Tent
+Large Panda Tent
+Mishka
+Mist
+Mogu Defier
+Mogu Door
+Natasha
+Orphan Spell Visual Invisible Holder
+Player 1's Pet
+Player 2's Pet
+Player Clone (TEMP)
+Player Clone (TEMP)
+Reincarnated Skytalon
+Rivett Clutchpop
+Shademaster Kiryn
+Small Alliance Tent
+Small Horde Tent
+Small Panda Tent
+Sully The Pickle" McLeary"
+Test Panda
+Vladimir
+Worgen Dust Bunny
+Yellow Balloon
+Yellow Balloon
+Zandalari Fleshrender
+Zandalari Fleshrender
+Zandalari Fleshrender
+Zandalari Priest
+Zandalari Priest
+Zandalari Priest
+Zandalari Refugee
+Zandalari Soulraiser
+Zandalari Tomb-robber
+Zandalari Underling
+Zandalari Underling
+
+Water:
+
+Albino Snapjaw
+Baby Shark
+Bubbles
+Chuck
+Darkmoon Turtle
+Dart Frog
+Hawksbill Snapjaw
+Island Frog
+Jubling
+Leatherback Snapjaw
+Loggerhead Snapjaw
+Magical Crawdad
+Mojo
+Muckbreath
+Olive Snapjaw
+Purple Puffer
+Rainbow Trout
+Sea Pony
+Snarly
+Speedy
+Strand Crawler
+Tiny Water Strider
+Toothy
+Tree Frog
+Whirling Waveling
+Wood Frog
